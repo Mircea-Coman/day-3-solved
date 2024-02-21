@@ -1,0 +1,5 @@
+matmult.py:                     3.12 s ± 80.7 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+matmult.py (no print result):   3.11 s ± 197 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+mamult_numpy.py:                16.5 ms ± 1.08 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+
+200 times improvement!
