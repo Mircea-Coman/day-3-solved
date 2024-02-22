@@ -1,0 +1,32 @@
+Float 64
+
+Numpy
+128x128:    311 µs ± 93.2 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
+256x256:    1.17 ms ± 208 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
+512x512:    7.51 ms ± 148 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+1024x1024:  34.1 ms ± 5.41 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
+2048x2048:  206 ms ± 29.1 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+
+
+Cupy:
+128x128:    74.6 µs ± 1.3 µs per loop (mean ± std. dev. of 7 runs, 10000 loops each)
+256x256:    76.7 µs ± 11.4 µs per loop (mean ± std. dev. of 7 runs, 10000 loops each)
+512x512:    252 µs ± 3.08 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
+1024x1024:  1.08 ms ± 657 ns per loop (mean ± std. dev. of 7 runs, 1000 loops each)
+2048x2048:  4.17 ms ± 37.4 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
+
+
+Float 32
+Numpy:
+128x128:    235 µs ± 11.6 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
+256x256:    1.15 ms ± 247 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
+512x512:    6.55 ms ± 1.6 ms per loop (mean ± std. dev. of 7 runs, 100 loops each)
+1024x1024:  28.7 ms ± 712 µs per loop (mean ± std. dev. of 7 runs, 10 loops each)
+2048x2048:  186 ms ± 36.5 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+
+Cupy:
+128x128:    162 µs ± 45.4 µs per loop (mean ± std. dev. of 7 runs, 1 loop each)
+256x256:    74.2 µs ± 1.92 µs per loop (mean ± std. dev. of 7 runs, 10000 loops each)
+512x512:    74.4 µs ± 1.49 µs per loop (mean ± std. dev. of 7 runs, 10000 loops each)
+1024x1024:  230 µs ± 4.95 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
+2048x2048:  957 µs ± 325 ns per loop (mean ± std. dev. of 7 runs, 1000 loops each)
